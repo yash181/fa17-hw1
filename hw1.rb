@@ -1,6 +1,6 @@
 def squared_sum(a, b)
   # Q1 CODE HERE
-
+    square(a) + square(b)
 end
 
 def sort_array_plus_one(a)
