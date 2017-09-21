@@ -1,11 +1,11 @@
 def squared_sum(a, b)
   # Q1 CODE HERE
-    square(a+b)
+    (a+b)**2
 end
 
 def sort_array_plus_one(a)
-  (0..a.length - 1).step(2).each do |index|
-  a[index] = a[index] + 1
+  a = a.sort 
+  a.map{|a| a += 1}
 end
 
 def combine_name(first_name, last_name)
